@@ -2,7 +2,7 @@
 ###### 2024 January 23
 
 
-### Evaluation Task: Take three inputes from user The find the two highest values from them and also find the differences between those two values.
+### Evaluation Task: Take three inputs from user The find the two highest values from them and also find the differences between those two values.
 
 #### solution: 
 ```java
