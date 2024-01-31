@@ -1,4 +1,4 @@
-# Lab 02 Activities
+# Lab 03 Activities
 ###### 2024 January 30
 
 ### Evaluation Task: Create a class named `People` with two constructors and one method. The constructors should be named `People()`, `People(int age, String name)` and `String Hello(String x)`. All variable names in this class should be similar to parameter variable names. The null constructor will call the second one. The `Hello` method will return and print a message to the main method.
