@@ -53,6 +53,33 @@ Issues/Queries I personally faced while building the logics,
 * `<=` vs `<` in loop
 * what if I put the `if` condition outside the second loop.
 
+#### ধামাচাপা সংস্করণ
+```bash
+#!/bin/bash
+
+read n
+
+for ((i=0; i<n; i++))
+do
+  for ((j=0; j<=i; j++))
+  do
+    echo -n "*"
+  done
+
+  echo
+done
+
+
+for ((i=n; i>=0; i--))
+do
+  for ((j=i; j>=0; j--))
+  do
+    echo -n "*"
+  done
+
+  echo
+done
+```
 
 **N.B** (from me :3): Printing pattern is one of the effective way of understanding the underlining of loops and building logics. One must understand how can he play with loops. Even though it seems very silly, but you will for sure get stuck (if are honest with yourself) after getting asked how the program is printing 'X' pattern.
 * Practice more patterns [here](https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/)
