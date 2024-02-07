@@ -111,7 +111,7 @@ curr=0
 
 echo -n "$prev2 $prev1 "
 
-for((i=1;i<=num;++i))
+for((i=1;i<=$((num-2));++i))
 do
   curr=$(($prev2 + $prev1))
   echo -n "$curr "
