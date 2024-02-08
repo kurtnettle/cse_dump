@@ -81,10 +81,10 @@ do
 done
 ```
 
-**N.B** (from me :3): Printing pattern is one of the effective way of understanding the underlining of loops and building logics. One must understand how can he play with loops. Even though it seems very silly, but you will for sure get stuck (if are honest with yourself) after getting asked how the program is printing 'X' pattern.
-* Practice more patterns [here](https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/)
-* One of the best [youtube video](https://www.youtube.com/watch?v=tNm_NNSB3_w) to me
-
+> [!TIP]
+> Printing pattern is one of the effective way of understanding the underlining of loops and building logics. One must understand how can he play with loops. Even though it seems very silly, but you will for sure get stuck (if are honest with yourself) after getting asked how the program is printing 'X' pattern.
+> * Practice more patterns [here](https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/)
+> * One of the best [youtube video](https://www.youtube.com/watch?v=tNm_NNSB3_w) to me
 
 ### Task 2: Print the first n numbers of fibonacci series in terminal with a bash script
 
