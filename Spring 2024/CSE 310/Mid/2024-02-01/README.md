@@ -32,14 +32,14 @@ So, seeing the output from the question we can conclude that,
 
 read n
 
-for ((i=0; i<=$((2*n-1)); i++))
+for ((i=1; i<$((2*n)); i++))
 do
   m=i
-  for ((j=0; j<=m; j++))
+  for ((j=0; j<m; j++))
   do
     echo -n "*"
     if (( i>n ));then
-    m=$(( (2*n-1)-i ))
+    m=$(( (2*n)-i ))
     fi
   done
 
